@@ -3,17 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the portfolio of Assem Alia"/>
     <title>ASSEM ALIA</title>
     
     <link rel="icon" href="img/logo_icon.png">
 
-<!-- File CSS
- 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500&display=swap");
-اسم الفونت 
-    font-family: "Inter",sans-serif;
-
-    font-family: "DM Sans", sans-serif;-->
  <link rel="stylesheet" href="css/style.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
@@ -33,17 +27,22 @@
     <header>
         <nav class = "container">
             <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
-            <div class="links">
+            <div class="links" id="links">
+                <span class="close_menu" onclick="Open_colose_Menu()"><i class="fa-solid fa-xmark "></i></span>
+
+                <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
                 <a class="active" href="#">Home</a>
                 <a class="#" href="#">About</a>
-                <a class="#" href="#">Services</a>
+                <a class="#" href="#services-section">Services</a>
                 <a class="#" href="#">Projects</a>
                 <a class="#" href="#">Contact</a>
             </div>
             <div class="icons">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/%D9%8Eassem-alia/"><i class="fa-brands fa-linkedin-in"></i></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/assemalia39" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/%D9%8Eassem-alia/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                <a href="https://www.instagram.com/as.__.sem?igsh=c2Jlc21iYWR6ZnFy" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/assemalia"><i class="fa-brands fa-github" target="_blank"></i></a>
+                <span class="icon_menu" onclick="Open_colose_Menu()"><i class="fa-solid fa-bars"></i></span>
             </div>
         </nav>
     </header>
@@ -53,8 +52,8 @@
             <div class="div_text">
               <h4>Hello, i'm</h4>
               <h1><span>Assem Alia</span></h1>
-              <h2>App Developer & Ui designer</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae corporis incidunt quia laudantium mollitia suscipit magnam placeat, quisquam dicta sunt ipsa soluta blanditiis quam voluptates optio. Quae, neque libero.</p>
+              <h2>Mobile App Developer & UI/UX Designer</h2>
+              <p>I am Assem Alia, a professional mobile app developer and UI/UX designer. I create innovative applications that solve real-world problems and enhance user experiences.</p>
               
               <div class="btns">
                 <a href="#" class="btn">hire me</a>
@@ -74,13 +73,15 @@
             <div class="div_text">
                 <h5>about me</h5>
                 <h2><span>I'm a Developer</span></h2>
-                <h4>I develop Application that help people</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias quisquam et minima sunt perspiciatis unde laborum quae, veritatis incidunt consequatur beatae optio qui provident inventore? Vitae quam esse cumque voluptas?</p>
+                <h4>I develop applications that make a difference .</h4>
+                <p>With extensive experience in developing mobile applications 
+                    for both Android and iOS, I specialize in creating seamless user experiences through
+                    intuitive design and efficient code. My passion is to craft digital solutions that meet user needs and exceed expectations.</p>
                 <ul>
-                    <li><i class="fa-solid fa-check"></i> Web Development</li>
+                    <li><i class="fa-solid fa-check"></i> Android App Development</li>
                     <li><i class="fa-solid fa-check"></i> UI/UX Design</li>
                     <li><i class="fa-solid fa-check"></i> IOS App Development</li>
-                    <li><i class="fa-solid fa-check"></i> Android App Development</li>
+                    <li><i class="fa-solid fa-check"></i> Web Development</li>
                 </ul>
                 <a href="img/CV.webp" download class="btn">Dwonload CV</a>
             </div>
@@ -90,7 +91,7 @@
         </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services-section">
         <div class="container">
             <div class="top_section">
                 <h2>Our <span>Services</span></h2>
@@ -99,20 +100,20 @@
             <div class="boxs">
                 <div class="box">
                     <i class="fa-solid fa-pen-ruler"></i>
-                    <h3>Web Design</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore accusamus quidem ut eaque accusantium quae repellendus nihil facere perferendis atque laboriosam veritatis, iste pariatur, delectus, consequatur autem ipsa architecto aspernatur!</p>
+                    <h3>Mobile App Development</h3>
+                    <p>Providing end-to-end mobile app development services for both Android and iOS platforms. Whether it's a startup idea or an enterprise solution, I develop apps that are feature-rich, intuitive, and scalable. By utilizing the latest technologies and frameworks, I deliver mobile applications that offer seamless performance and an engaging user experience.</p>
                     <a href="#" class="btn">Read More</a>
                 </div>
                 <div class="box">
                     <i class="fa-solid fa-rocket"></i>
-                    <h3>Web Design</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore accusamus quidem ut eaque accusantium quae repellendus nihil facere perferendis atque laboriosam veritatis, iste pariatur, delectus, consequatur autem ipsa architecto aspernatur!</p>
+                    <h3>UI/UX Design</h3>
+                    <p>Specializing in designing user-centric interfaces that prioritize both aesthetics and usability. My approach to UI/UX design is focused on creating intuitive and engaging experiences that keep users coming back. From wireframing and prototyping to the final design, every detail is crafted to enhance the overall user journey, ensuring your product is both beautiful and functional.</p>
                     <a href="#" class="btn">Read More</a>
                 </div>
                 <div class="box">
                     <i class="fa-solid fa-code"></i>
-                    <h3>Web Design</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore accusamus quidem ut eaque accusantium quae repellendus nihil facere perferendis atque laboriosam veritatis, iste pariatur, delectus, consequatur autem ipsa architecto aspernatur!</p>
+                    <h3>Web Design & Development</h3>
+                    <p>Crafting visually stunning and highly functional websites tailored to your business needs. From responsive design to robust back-end development, I ensure your online presence is not just attractive but also effective in driving results. My expertise spans across creating dynamic websites that are both user-friendly and optimized for performance.</p>
                     <a href="#" class="btn">Read More</a>
                 </div>
             </div>
@@ -173,9 +174,10 @@
             <div class="links">
                 <a href="mailto:alia.assem39@gmail.com"><i class="fa-solid fa-envelope"></i>assem.alia39@gmail.com</a>
                 <a href="tel:+213795545301"><i class="fa-solid fa-phone"></i>+213 795 54 53 01</a>
-                <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i>Facebook</a>
-                <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
-                <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="https://www.facebook.com/assemalia39" target="_blank"><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+                <a href="https://www.linkedin.com/in/%D9%8Eassem-alia/" target="_blank"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
+                <a href="https://www.instagram.com/as.__.sem?igsh=c2Jlc21iYWR6ZnFy" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="https://github.com/assemalia" target="_blank"><i class="fa-brands fa-github"></i>Github</a>
             </div>
         </div>
         <form action="">
@@ -188,6 +190,9 @@
             </div>
             <button class="btn">Send Message</button>
         </form>
+    </div>
+    <div class="footer">
+        
     </div>
     </section>
 
