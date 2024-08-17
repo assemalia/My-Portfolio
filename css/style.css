@@ -550,7 +550,7 @@ header nav .icons a:hover {
 
 /*End Contact*/
 .footer {
-    padding: 15px 0;
+    padding: 30px ;
     background-color: var(--main_color);
     border-radius: 20px 20px 0 0;
 }
