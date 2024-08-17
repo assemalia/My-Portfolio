@@ -388,11 +388,6 @@ header nav .icons a:hover {
 }
 
 /*End Sevices*/
-.footer {
-    height: 40px;
-    ;
-}
-
 /*start Project section */
 .projects .projects_box {
     display: flex;
@@ -554,6 +549,16 @@ header nav .icons a:hover {
 }
 
 /*End Contact*/
+.footer {
+    padding: 15px 0;
+    background-color: var(--main_color);
+    border-radius: 20px 20px 0 0;
+}
+.footer p{
+    font-weight: bold;
+    text-align: center;
+}
+
 /*start REsponsive*/
 .close_menu,
 header .links .logo,
